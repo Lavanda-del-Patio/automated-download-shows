@@ -3,7 +3,7 @@
 
 	<groupId>lavanda</groupId>
 	<artifactId>automated-download-shows</artifactId>
-	<version>0.0.13-SNAPSHOT</version>
+	<version>0.0.13</version>
 	<packaging>jar</packaging>
 
 	<name>lavanda-automated-download-shows</name>
