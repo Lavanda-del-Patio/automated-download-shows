@@ -17,22 +17,13 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>11</java.version>
 		<maven.compiler.target>11</maven.compiler.target>
-		<start-class>com.lavanda.automated.download.shows.App</start-class>
-
 	</properties>
 
-	<distributionManagement>
-		<repository>
-			<id>github</id>
-			<name>GitHub luiscajl Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/luiscajl/lavanda-microservices</url>
-		</repository>
-	</distributionManagement>
 	<dependencies>
 		<dependency>
 			<groupId>es.lavanda</groupId>
 			<artifactId>lib-common</artifactId>
-			<version>0.0.52-SNAPSHOT</version>
+			<version>0.0.54</version>
 		</dependency>
 		<!-- ====================================================================== -->
 		<!-- ============================== SPRINGBOOT ============================ -->
@@ -44,11 +35,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId>
-			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -89,16 +75,16 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.18.16</version>
+			<version>1.18.22</version>
 			<scope>provided</scope>
 		</dependency>
 		<!-- ====================================================================== -->
-		<!-- =========================== MODEL MAPPER =============================== -->
+		<!-- ========================= MODEL MAPPER =============================== -->
 		<!-- ====================================================================== -->
 		<dependency>
 			<groupId>org.modelmapper</groupId>
 			<artifactId>modelmapper</artifactId>
-			<version>2.3.5</version>
+			<version>2.4.4</version>
 		</dependency>
 		<!-- ====================================================================== -->
 		<!-- =========================== MOCKITO =============================== -->
