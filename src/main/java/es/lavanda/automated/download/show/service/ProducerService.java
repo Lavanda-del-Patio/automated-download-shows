@@ -1,6 +1,6 @@
-package com.lavanda.automated.download.shows.service;
+package es.lavanda.automated.download.show.service;
 
-import com.lavanda.automated.download.shows.exception.AutomatedDownloadShowsException;
+import es.lavanda.automated.download.show.exception.AutomatedDownloadShowsException;
 
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Value;

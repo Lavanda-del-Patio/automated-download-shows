@@ -1,4 +1,4 @@
-package com.lavanda.automated.download.shows.models;
+package es.lavanda.automated.download.show.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

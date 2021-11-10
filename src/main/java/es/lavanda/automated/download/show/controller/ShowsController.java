@@ -1,9 +1,9 @@
-package com.lavanda.automated.download.shows.controller;
+package es.lavanda.automated.download.show.controller;
 
 import java.util.List;
 
-import com.lavanda.automated.download.shows.models.ShowModel;
-import com.lavanda.automated.download.shows.service.ShowsServiceImpl;
+import es.lavanda.automated.download.show.models.ShowModel;
+import es.lavanda.automated.download.show.service.ShowsServiceImpl;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

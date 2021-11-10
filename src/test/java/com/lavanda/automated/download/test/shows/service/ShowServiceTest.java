@@ -5,10 +5,10 @@ import static org.mockito.Mockito.when;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.lavanda.automated.download.shows.models.ShowModel;
-import com.lavanda.automated.download.shows.repository.ShowModelRepository;
-import com.lavanda.automated.download.shows.service.ProducerService;
-import com.lavanda.automated.download.shows.service.ShowsServiceImpl;
+import es.lavanda.automated.download.show.models.ShowModel;
+import es.lavanda.automated.download.show.repository.ShowModelRepository;
+import es.lavanda.automated.download.show.service.ProducerService;
+import es.lavanda.automated.download.show.service.ShowsServiceImpl;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;

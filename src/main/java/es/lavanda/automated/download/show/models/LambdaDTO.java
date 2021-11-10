@@ -1,4 +1,4 @@
-package com.lavanda.automated.download.shows.models;
+package es.lavanda.automated.download.show.models;
 
 import java.util.Date;
 import java.util.List;

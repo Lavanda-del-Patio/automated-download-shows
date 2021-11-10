@@ -1,4 +1,4 @@
-package com.lavanda.automated.download.shows.exception;
+package es.lavanda.automated.download.show.exception;
 
 public class AutomatedDownloadShowsException extends RuntimeException {
 

@@ -1,4 +1,4 @@
-package com.lavanda.automated.download.shows.config;
+package es.lavanda.automated.download.show.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;

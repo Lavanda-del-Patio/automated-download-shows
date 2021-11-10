@@ -1,4 +1,4 @@
-package com.lavanda.automated.download.shows;
+package es.lavanda.automated.download.show;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

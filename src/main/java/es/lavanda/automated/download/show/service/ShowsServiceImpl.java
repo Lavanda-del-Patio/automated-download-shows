@@ -1,4 +1,4 @@
-package com.lavanda.automated.download.shows.service;
+package es.lavanda.automated.download.show.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,10 +7,10 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
-import com.lavanda.automated.download.shows.exception.AutomatedDownloadShowsException;
-import com.lavanda.automated.download.shows.models.ShowModel;
-import com.lavanda.automated.download.shows.models.TransmissionModelRequest;
-import com.lavanda.automated.download.shows.repository.ShowModelRepository;
+import es.lavanda.automated.download.show.exception.AutomatedDownloadShowsException;
+import es.lavanda.automated.download.show.models.ShowModel;
+import es.lavanda.automated.download.show.models.TransmissionModelRequest;
+import es.lavanda.automated.download.show.repository.ShowModelRepository;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

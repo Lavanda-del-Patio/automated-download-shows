@@ -1,4 +1,4 @@
-package com.lavanda.automated.download.shows.models;
+package es.lavanda.automated.download.show.models;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

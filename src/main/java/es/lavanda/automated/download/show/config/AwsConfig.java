@@ -1,4 +1,4 @@
-package com.lavanda.automated.download.shows.config;
+package es.lavanda.automated.download.show.config;
 
 import com.amazonaws.services.sqs.AmazonSQSAsync;
 import com.amazonaws.services.sqs.AmazonSQSAsyncClientBuilder;

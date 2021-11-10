@@ -1,5 +1,5 @@
 
-package com.lavanda.automated.download.shows.models;
+package es.lavanda.automated.download.show.models;
 
 
 import org.springframework.data.annotation.CreatedBy;

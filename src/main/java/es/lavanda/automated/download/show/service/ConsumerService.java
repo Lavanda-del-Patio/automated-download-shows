@@ -1,9 +1,9 @@
-package com.lavanda.automated.download.shows.service;
+package es.lavanda.automated.download.show.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.lavanda.automated.download.shows.exception.AutomatedDownloadShowsException;
-import com.lavanda.automated.download.shows.models.LambdaDTO;
+import es.lavanda.automated.download.show.exception.AutomatedDownloadShowsException;
+import es.lavanda.automated.download.show.models.LambdaDTO;
 
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.cloud.aws.messaging.listener.SqsMessageDeletionPolicy;
